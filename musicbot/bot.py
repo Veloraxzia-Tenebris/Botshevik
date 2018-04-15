@@ -1223,8 +1223,8 @@ class MusicBot(discord.Client):
         """Provides a basic template for embeds"""
         e = discord.Embed()
         e.colour = 7506394
-        e.set_footer(text='Just-Some-Bots/MusicBot ({})'.format(BOTVERSION), icon_url='https://i.imgur.com/gFHBoZA.png')
-        e.set_author(name=self.user.name, url='https://github.com/Just-Some-Bots/MusicBot', icon_url=self.user.avatar_url)
+        e.set_footer(text='"Да, товарищ" -Комрадыски', icon_url='https://s3.amazonaws.com/user-media.venngage.com/344339-07996c5a9fbae1c094d7549ac2313c6d.png')
+        e.set_author(name=self.user.name, url='https://github.com/Veloraxzia-Tenebris/Botshevik', icon_url=self.user.avatar_url)
         return e
 
     async def cmd_resetplaylist(self, player, channel):
